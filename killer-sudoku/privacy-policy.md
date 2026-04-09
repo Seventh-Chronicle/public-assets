@@ -12,7 +12,7 @@ For any privacy question, contact: dark.disc6864@fastmail.com
 
 ### Analytics
 
-The App does not currently collect analytics or send events to any analytics backend. There is no analytics SDK embedded in the App, and no gameplay, screen-view, feature-usage, or purchase-flow events are transmitted off the device.
+The App does not collect analytics. No gameplay, screen-view, feature-usage, or purchase-flow data is sent off your device.
 
 Your game state — saved puzzles, preferences, statistics, streak records, and puzzle progress — is stored exclusively on your device using an on-device database and is never transmitted anywhere. Uninstalling the App deletes this data.
 
