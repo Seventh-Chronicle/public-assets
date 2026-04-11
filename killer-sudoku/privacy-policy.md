@@ -1,10 +1,10 @@
 # Privacy Policy — Killer Sudoku by Seventh Chronicle
 
-**Last updated:** 9 April 2026
+**Last updated:** 11 April 2026
 
 ## Who we are
 
-Killer Sudoku ("the App") is published by Ben Larson, trading as Seventh Chronicle ("we", "us", "I", "me"). This privacy policy explains what data the App collects, how it is used, and the choices available to you depending on where you live.
+Killer Sudoku ("the App") is published by Seventh Chronicle Ltd ("we", "us"). This privacy policy explains what data the App collects, how it is used, and the choices available to you depending on where you live.
 
 For any privacy question, contact: dark.disc6864@fastmail.com
 
