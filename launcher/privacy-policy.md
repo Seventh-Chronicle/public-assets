@@ -45,12 +45,19 @@ The app requests only the permissions necessary for core launcher functionality:
 | Notification listener | Show notification badge counts on app icons |
 | Set wallpaper | Wallpaper management |
 | Expand status bar | Quick settings gesture |
+| Device Administrator (lock screen) | Power the optional double-tap-to-lock gesture |
 
-No sensitive permissions (contacts, location, camera, microphone, storage) are requested.
+No data-collection permissions (contacts, location, camera, microphone, storage) are requested.
 
 ### Notification listener details
 
 If you grant notification listener access, the app reads only the **package name** and **count** of active notifications in order to display badge numbers on app icons. It does not read notification titles, text, content, or any payload. Badge counts are held in memory only and are never written to disk or transmitted off the device. You can revoke access at any time via Android system settings.
+
+### Device Administrator details
+
+Hearth can optionally register as a Device Administrator to support the **double-tap-to-lock-screen** gesture. When activated, the app uses this permission for one purpose only: calling Android's `DevicePolicyManager.lockNow()` to lock the screen. No other Device Administrator capabilities are used — Hearth cannot and does not erase data, change your password, control the camera or keyguard, or apply any other device policy.
+
+Device Administrator activation is **opt-in**: you must explicitly enable it in Settings, and the app never prompts for it on its own. You can revoke it at any time from Hearth's settings or from Android's system settings. When Device Administrator is not activated, the lock-screen gesture is simply unavailable; all other launcher features work normally.
 
 ## Backup and restore
 
